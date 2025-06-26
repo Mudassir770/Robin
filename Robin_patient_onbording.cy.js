@@ -15,7 +15,7 @@ describe("Patient Onboarding", () => {
 
   it("should login successfully with correct credentials", () => {
     // Visit the login page
-    cy.visit("https://robin.octdaily.com/public/login");
+    cy.visit("xyz");
     
     // Set the viewport
     cy.viewport(1500, 814);
