@@ -4,7 +4,7 @@ describe("login test robin", () => {
   it("Visit the url of Robin", () => {
     cy.viewport(694, 585);
     // Visit Robin WebApp
-    cy.visit("https://robin.octdaily.com/public/login");
+    cy.visit("xyz");
   });
 
   it("should show error when trying to login without credentials", () => { 
